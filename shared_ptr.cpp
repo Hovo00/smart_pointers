@@ -102,7 +102,7 @@ int main() {
     std::cout << std::endl << "\\\\\\\\\\\\\\\\" << std::endl << myusik.use_count() << musik.use_count() << std::endl;
     musik.reset();
     std::cout << "\\\\\\\\\\\\\\\\" << std::endl << myusik.use_count() << musik.use_count() << std::endl;
-
+/*
     std::shared_ptr<mys> test(new mys);
     std::shared_ptr<mys> p;
     auto p2(p);
@@ -110,4 +110,5 @@ int main() {
     std::cout << p2.use_count();
     p2 = std::make_shared<mys>();
     std::cout << std::endl << p.use_count() << " " << p2.use_count();
+*/
 }
